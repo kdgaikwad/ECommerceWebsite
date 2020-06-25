@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestBibaWebsite Test Suite" guice-stage="DEVELOPMENT" parallel="classes">
+	<test thread-count="4" name="TestBibaWebsite Test" verbose="2">
+		<classes>
+			<class name="TestWebsite.TestBibaWebsite" />
+		</classes>
+	</test>
+</suite>
